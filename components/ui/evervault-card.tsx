@@ -51,9 +51,9 @@ export const EvervaultCard = ({
         />
         <div className="relative z-10 flex items-center justify-center">
           <div className="relative h-44 w-44  rounded-full flex items-center justify-center text-white font-bold text-4xl">
-            <div className="absolute w-full h-full bg-white/[0.8] dark:bg-black/[0.8] blur-sm rounded-full" />
-            <span className="dark:text-white text-black z-20">
-              <Image src={imageUrl || `https://placehold.com.220`} alt={text || `Profile Image`} width={220} height={220} className="profile_image" >
+            <div className="absolute w-full h-full dark:bg-black/[0.8] blur-sm rounded-full" />
+            <span className="dark:text-white text-black z-20 items-center justify-center flex flex-col">
+              <Image src={imageUrl || `https://placehold.co/220`} alt={text || `Profile Image`} width={220} height={220} className="profile_image" />
               {text}
               </span>
           </div>

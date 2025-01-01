@@ -9,9 +9,9 @@ const page = () => {
         <div className="absolute inset-0 w-full h-full z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
         <Boxes />
-        <h1 className="heading relative">Tailwind is Awesome</h1>
+        <h1 className="heading relative">Welcome to project hub</h1>
         <p className="sub-heading !max-w-3xl relative">
-          Framer motion is the best animation library ngl
+        Where ideas connect and projects shine 🌈
         </p>
 
         <SearchForm />
@@ -21,11 +21,11 @@ const page = () => {
         <ul className="mt-7 card_grid grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-1 justify-center">
           {[
             { id: 123, title: "Asish Kumar Panda", desc: "A great developer" },
-            { id: 123, title: "Asish Kumar Panda", desc: "A great developer" },
-            { id: 123, title: "Asish Kumar Panda", desc: "A great developer" },
-            { id: 123, title: "Asish Kumar Panda", desc: "A great developer" },
+            { id: 1231, title: "Asish Kumar Panda", desc: "A great developer" },
+            { id: 1232, title: "Asish Kumar Panda", desc: "A great developer" },
+            { id: 1233, title: "Asish Kumar Panda", desc: "A great developer" },
           ].map((item, i) => (
-           <ThreeDCardDemo/>
+           <ThreeDCardDemo key={item.id}/>
           ))}
         </ul>
       </section>
