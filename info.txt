@@ -1,2 +1,9 @@
 @uiw/react-md-editor : Editor For the Project Create Page
 
+Auth.js : Used for the user authentication
+
+sanity.io : It is a type of CMS (Content Management System) that can manage Content easily.
+
+
+npx sanity@latest schema extract --path= ./sa
+nity/extract.json

@@ -4,6 +4,7 @@ import React from "react";
 
 const page = ({ params }: { params: { id: String } }) => {
   const { id } = params;
+  
   return (
     <>
       <section className="profile_container">
